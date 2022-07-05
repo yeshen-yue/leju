@@ -1,0 +1,155 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/explore/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/category/pages/categoryDetail/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/category/pages/goodsDetail/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/explore/pages/articleDetail/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user/pages/login/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user/pages/register/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pages/confirmOrder/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pages/address/allAddress",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pages/address/addAddress",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pages/payment/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pages/order/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pages/returnGoods/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pages/cart/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pages/star/goodsStar",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/pages/star/articleStar",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/user/pages/updateUserInfo/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/tabBar_icons/首页.png",
+				"selectedIconPath": "static/tabBar_icons/首页选中.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/index",
+				"iconPath": "static/tabBar_icons/分类.png",
+				"selectedIconPath": "static/tabBar_icons/分类选中.png",
+				"text": "分类"
+			}, {
+				"pagePath": "pages/explore/index",
+				"iconPath": "static/tabBar_icons/指南.png",
+				"selectedIconPath": "static/tabBar_icons/指南选中.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/user/index",
+				"iconPath": "static/tabBar_icons/我的.png",
+				"selectedIconPath": "static/tabBar_icons/我的选中.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "乐居",
+		"navigationBarBackgroundColor": "#354e44",
+		"backgroundColor": "#F8F8F8"
+	}
+}

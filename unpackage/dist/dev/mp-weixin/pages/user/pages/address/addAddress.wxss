@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.add_address.data-v-16bca6d4 {
+  background-color: #f1ece7;
+  padding: 23rpx;
+}
+.add_address .row.data-v-16bca6d4 {
+  height: 120rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-bottom: 1Px solid #ccc;
+}
+.add_address .row .title.data-v-16bca6d4 {
+  width: 212rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: left;
+}
+.add_address .row .ipt.data-v-16bca6d4 {
+  height: 120rpx;
+  width: calc(100% - 212rpx);
+}
+.add_address .row .choose_region.data-v-16bca6d4 {
+  line-height: 120rpx;
+}
+.add_address .footer.data-v-16bca6d4 {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.add_address .footer .btn.data-v-16bca6d4 {
+  margin: 0 auto;
+  box-shadow: 0rpx 5rpx 10rpx rgba(0, 0, 0, 0.4);
+  width: 70%;
+  height: 80rpx;
+  font-size: 30rpx;
+  line-height: 80rpx;
+  text-align: center;
+  border-radius: 80rpx;
+  color: #fff;
+}
+.add_address .footer .add_btn.data-v-16bca6d4 {
+  background-color: #354e44;
+}
+.add_address .footer .del_btn.data-v-16bca6d4 {
+  margin-top: 10rpx;
+  background-color: #f00;
+}
+

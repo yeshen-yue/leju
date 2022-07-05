@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/category/index",
+    "pages/explore/index",
+    "pages/user/index",
+    "pages/category/pages/categoryDetail/index",
+    "pages/category/pages/goodsDetail/index",
+    "pages/explore/pages/articleDetail/index",
+    "pages/user/pages/login/index",
+    "pages/user/pages/register/index",
+    "pages/user/pages/confirmOrder/index",
+    "pages/user/pages/address/allAddress",
+    "pages/user/pages/address/addAddress",
+    "pages/user/pages/payment/index",
+    "pages/user/pages/order/index",
+    "pages/user/pages/returnGoods/index",
+    "pages/user/pages/cart/index",
+    "pages/user/pages/star/goodsStar",
+    "pages/user/pages/star/articleStar",
+    "pages/user/pages/updateUserInfo/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "乐居",
+    "navigationBarBackgroundColor": "#354e44",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabBar_icons/首页.png",
+        "selectedIconPath": "static/tabBar_icons/首页选中.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "iconPath": "static/tabBar_icons/分类.png",
+        "selectedIconPath": "static/tabBar_icons/分类选中.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/explore/index",
+        "iconPath": "static/tabBar_icons/指南.png",
+        "selectedIconPath": "static/tabBar_icons/指南选中.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/tabBar_icons/我的.png",
+        "selectedIconPath": "static/tabBar_icons/我的选中.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

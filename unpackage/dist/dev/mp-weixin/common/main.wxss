@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+uni-page-body,
+page {
+	background-color: #f1ece7;
+	height: 100% !important;
+}
+
